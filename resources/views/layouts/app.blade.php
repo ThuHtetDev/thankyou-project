@@ -24,7 +24,7 @@
       min-height: 100vh;
       flex-direction: column;
       justify-content: space-between;
-      background: url("/images/bg01.jpg") top center;
+      background: url("/images/bg_assk.jpg") top center;
       background-repeat: no-repeat;
       background-size: 100% auto;
       background-position: center top;

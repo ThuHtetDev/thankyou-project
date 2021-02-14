@@ -124,7 +124,7 @@ a {
 	display: inline-block;	
 	padding: 10px;
     font-size: 20px;
-    text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #00ff33, 0 0 10px #00ff33, 0 0 15px #00ff33;
+    text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px red, 0 0 10px red, 0 0 15px red;
     transition: all 1s;
 }
 
@@ -142,9 +142,9 @@ a {
 } */
 
 .navbar-container ul li:hover .underline {
-	background-color: #00ff33;
+	background-color: red;
 	width: 100%;
-    text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #00ff33, 0 0 10px #00ff33, 0 0 15px #00ff33, 0 0 20px #00ff33, 0 0 25px #00ff33, 0 0 30px #00ff33;
+    text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px red, 0 0 10px red, 0 0 15px red, 0 0 20px red, 0 0 25px red, 0 0 30px red;
 }
 
 .navbar-container ul li:hover a {
@@ -157,13 +157,13 @@ a {
 
 .navbar-container ul li:active .underline {
 	transition: none;
-	background-color: #00ff33;
+	background-color: red;
 }
 /* .router-link-exact-active{
   background: black;
 } */
 .navbar-container ul li a.router-link-exact-active .underline {
 	width: 100%;
-	background-color: #00ff33;
+	background-color: red;
 }
 </style>

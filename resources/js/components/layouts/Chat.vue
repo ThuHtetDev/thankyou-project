@@ -41,7 +41,7 @@
                     onCancel: this.onCancel,
                     width: 64,
                     height: 64,
-                    color: 'green',
+                    color: 'red',
             });
             this.$store.dispatch('users')
             .then(response => {

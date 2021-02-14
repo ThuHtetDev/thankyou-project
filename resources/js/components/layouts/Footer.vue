@@ -41,8 +41,11 @@ ul {
 }
 
 .copyright-area{
-  background:#3A3A3A;
-  padding: 25px 0;
+  /* background:#3A3A3A; */
+  /* padding: 25px 0; */
+    padding: 25px 0;
+    opacity: 0.9;
+    background: aliceblue;
 }
 .copyright-text p {
   margin: 0;

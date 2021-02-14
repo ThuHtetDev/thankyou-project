@@ -1982,7 +1982,7 @@ __webpack_require__.r(__webpack_exports__);
         onCancel: this.onCancel,
         width: 64,
         height: 64,
-        color: 'green',
+        color: 'red',
         backgroundColor: '#222'
       });
 
@@ -2179,7 +2179,7 @@ __webpack_require__.r(__webpack_exports__);
       onCancel: this.onCancel,
       width: 64,
       height: 64,
-      color: 'green'
+      color: 'red'
     });
     this.$store.dispatch('users').then(function (response) {
       _this.users = _this.$store.state.users;
@@ -2339,7 +2339,7 @@ __webpack_require__.r(__webpack_exports__);
         onCancel: this.onCancel,
         width: 64,
         height: 64,
-        color: 'green'
+        color: 'red'
       });
       this.$store.dispatch('chatUser', this.proId).then(function (response) {
         var chatInfos = _this2.$store.state.userChats;
@@ -2423,7 +2423,7 @@ __webpack_require__.r(__webpack_exports__);
         onCancel: this.onCancel,
         width: 64,
         height: 64,
-        color: 'green'
+        color: 'red'
       });
       this.$store.dispatch('getTodayPlayers').then(function (response) {
         var todayPlayers = _this2.$store.getters.getPlayer;
@@ -2535,7 +2535,7 @@ __webpack_require__.r(__webpack_exports__);
         onCancel: this.onCancel,
         width: 64,
         height: 64,
-        color: 'green'
+        color: 'red'
       });
       this.$store.dispatch('currentAvailableColors').then(function (response) {
         loader.hide();
@@ -2651,7 +2651,7 @@ __webpack_require__.r(__webpack_exports__);
       onCancel: this.onCancel,
       width: 64,
       height: 64,
-      color: 'green'
+      color: 'red'
     });
     this.$store.dispatch('currentAuthUserAction').then(function (response) {
       _this.front_img = _this.$store.state.AuthUser.image;
@@ -2766,7 +2766,7 @@ __webpack_require__.r(__webpack_exports__);
         onCancel: this.onCancel,
         width: 64,
         height: 64,
-        color: 'green',
+        color: 'red',
         backgroundColor: '#222'
       });
       setTimeout(function () {
@@ -2965,7 +2965,7 @@ __webpack_require__.r(__webpack_exports__);
         onCancel: this.onCancel,
         width: 64,
         height: 64,
-        color: 'green',
+        color: 'red',
         backgroundColor: '#222'
       });
       this.$store.dispatch('getPositiveThinking').then(function (response) {
@@ -2981,7 +2981,7 @@ __webpack_require__.r(__webpack_exports__);
         onCancel: this.onCancel,
         width: 64,
         height: 64,
-        color: 'green',
+        color: 'red',
         backgroundColor: '#222'
       });
       this.$store.dispatch('doneForThisWeek').then(function (response) {
@@ -7558,7 +7558,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\nul[data-v-a242bae8] {\r\n    margin: 0px;\r\n    padding: 0px;\n}\n.copyright-area[data-v-a242bae8]{\r\n  background:#3A3A3A;\r\n  padding: 25px 0;\n}\n.copyright-text p[data-v-a242bae8] {\r\n  margin: 0;\r\n  font-size: 14px;\r\n  color: #878787;\n}\n.copyright-text p a[data-v-a242bae8]{\r\n  color: #2FABCD;\n}\n.footer-menu li[data-v-a242bae8] {\r\n  display: inline-block;\r\n  margin-left: 20px;\n}\n.footer-menu li:hover a[data-v-a242bae8]{\r\n  color: #fff;\n}\n.footer-menu li a[data-v-a242bae8] {\r\n  font-size: 14px;\r\n  color: #878787;\n}\r\n", ""]);
+exports.push([module.i, "\nul[data-v-a242bae8] {\r\n    margin: 0px;\r\n    padding: 0px;\n}\n.copyright-area[data-v-a242bae8]{\r\n  /* background:#3A3A3A; */\r\n  /* padding: 25px 0; */\r\n    padding: 25px 0;\r\n    opacity: 0.9;\r\n    background: aliceblue;\n}\n.copyright-text p[data-v-a242bae8] {\r\n  margin: 0;\r\n  font-size: 14px;\r\n  color: #878787;\n}\n.copyright-text p a[data-v-a242bae8]{\r\n  color: #2FABCD;\n}\n.footer-menu li[data-v-a242bae8] {\r\n  display: inline-block;\r\n  margin-left: 20px;\n}\n.footer-menu li:hover a[data-v-a242bae8]{\r\n  color: #fff;\n}\n.footer-menu li a[data-v-a242bae8] {\r\n  font-size: 14px;\r\n  color: #878787;\n}\r\n", ""]);
 
 // exports
 
@@ -7634,7 +7634,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\nbody, html {\r\n\tmargin: 0;\r\n     font-family: \"Balsamiq Sans\", cursive;\n}\na {\r\n\toutline: none;\n}\n.navbar-container {\r\n\ttext-align: center;\r\n\tpadding: 10px;\r\n\tfont-size: 0;\n}\n.navbar-container ul {\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\twidth: 100%;\r\n\tdisplay: inline-block;\r\n\tvertical-align: middle;\n}\n.navbar-container ul li {\r\n\tdisplay: inline-block;\r\n\tfont-size: 16px;\n}\n.navbar-container ul li a {\r\n\t/* color: black;\r\n\ttext-decoration: none;\r\n\tdisplay: inline-block;\t\r\n\tpadding: 10px;\r\n\ttransition: color 0.5s; */\r\n    color: #fff;\r\n    cursor: pointer;\r\n    font-family: monospace;\r\n    font-weight:bold;\r\n    text-decoration: none;\r\n\tdisplay: inline-block;\t\r\n\tpadding: 10px;\r\n    font-size: 20px;\r\n    text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #00ff33, 0 0 10px #00ff33, 0 0 15px #00ff33;\r\n    transition: all 1s;\n}\n.navbar-container ul li .underline {\r\n\theight: 3px;\r\n\tbackground-color: transparent;\r\n\twidth: 0%;\r\n\ttransition: width 0.2s, background-color 0.5s;\r\n\tmargin: 0 auto;\n}\r\n\r\n/* .navbar-container ul li.active-link .underline {\r\n\twidth: 100%;\r\n\tbackground-color: black;\r\n} */\n.navbar-container ul li:hover .underline {\r\n\tbackground-color: #00ff33;\r\n\twidth: 100%;\r\n    text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #00ff33, 0 0 10px #00ff33, 0 0 15px #00ff33, 0 0 20px #00ff33, 0 0 25px #00ff33, 0 0 30px #00ff33;\n}\n.navbar-container ul li:hover a {\n}\n.navbar-container ul li:active a {\r\n\ttransition: none;\r\n\tcolor: rgba(255,255,255,0.76);\n}\n.navbar-container ul li:active .underline {\r\n\ttransition: none;\r\n\tbackground-color: #00ff33;\n}\r\n/* .router-link-exact-active{\r\n  background: black;\r\n} */\n.navbar-container ul li a.router-link-exact-active .underline {\r\n\twidth: 100%;\r\n\tbackground-color: #00ff33;\n}\r\n", ""]);
+exports.push([module.i, "\nbody, html {\r\n\tmargin: 0;\r\n     font-family: \"Balsamiq Sans\", cursive;\n}\na {\r\n\toutline: none;\n}\n.navbar-container {\r\n\ttext-align: center;\r\n\tpadding: 10px;\r\n\tfont-size: 0;\n}\n.navbar-container ul {\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\twidth: 100%;\r\n\tdisplay: inline-block;\r\n\tvertical-align: middle;\n}\n.navbar-container ul li {\r\n\tdisplay: inline-block;\r\n\tfont-size: 16px;\n}\n.navbar-container ul li a {\r\n\t/* color: black;\r\n\ttext-decoration: none;\r\n\tdisplay: inline-block;\t\r\n\tpadding: 10px;\r\n\ttransition: color 0.5s; */\r\n    color: #fff;\r\n    cursor: pointer;\r\n    font-family: monospace;\r\n    font-weight:bold;\r\n    text-decoration: none;\r\n\tdisplay: inline-block;\t\r\n\tpadding: 10px;\r\n    font-size: 20px;\r\n    text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px red, 0 0 10px red, 0 0 15px red;\r\n    transition: all 1s;\n}\n.navbar-container ul li .underline {\r\n\theight: 3px;\r\n\tbackground-color: transparent;\r\n\twidth: 0%;\r\n\ttransition: width 0.2s, background-color 0.5s;\r\n\tmargin: 0 auto;\n}\r\n\r\n/* .navbar-container ul li.active-link .underline {\r\n\twidth: 100%;\r\n\tbackground-color: black;\r\n} */\n.navbar-container ul li:hover .underline {\r\n\tbackground-color: red;\r\n\twidth: 100%;\r\n    text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px red, 0 0 10px red, 0 0 15px red, 0 0 20px red, 0 0 25px red, 0 0 30px red;\n}\n.navbar-container ul li:hover a {\n}\n.navbar-container ul li:active a {\r\n\ttransition: none;\r\n\tcolor: rgba(255,255,255,0.76);\n}\n.navbar-container ul li:active .underline {\r\n\ttransition: none;\r\n\tbackground-color: red;\n}\r\n/* .router-link-exact-active{\r\n  background: black;\r\n} */\n.navbar-container ul li a.router-link-exact-active .underline {\r\n\twidth: 100%;\r\n\tbackground-color: red;\n}\r\n", ""]);
 
 // exports
 

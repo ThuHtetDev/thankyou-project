@@ -71,7 +71,7 @@
                     onCancel: this.onCancel,
                     width: 64,
                     height: 64,
-                    color: 'green',
+                    color: 'red',
                     backgroundColor: '#222',
                 });
                 this.$store.dispatch('getPositiveThinking')
@@ -88,7 +88,7 @@
                     onCancel: this.onCancel,
                     width: 64,
                     height: 64,
-                    color: 'green',
+                    color: 'red',
                     backgroundColor: '#222',
                 });
                   this.$store.dispatch('doneForThisWeek')

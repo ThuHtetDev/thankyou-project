@@ -16,7 +16,7 @@
 
 <script>
     export default {
-        data:function(){
+        data:function(){  
             return {
                 front_url: '',
                 front_img: '',
@@ -31,7 +31,7 @@
                     onCancel: this.onCancel,
                     width: 64,
                     height: 64,
-                    color: 'green',
+                    color: 'red',
             });
           this.$store.dispatch('currentAuthUserAction')
           .then(response => {

@@ -38,7 +38,7 @@
                   onCancel: this.onCancel,
                   width: 64,
                   height: 64,
-                  color: 'green',
+                  color: 'red',
                   backgroundColor: '#222',
                 });
                 if(this.email != '' && this.password != ''){
